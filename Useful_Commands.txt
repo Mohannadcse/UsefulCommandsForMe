@@ -1,4 +1,4 @@
-GitHub
+GitHub (http://rogerdudler.github.io/git-guide/)
 	1- curl -u '<userName>' https://api.github.com/user/repos -d '{"name":"<projectname>","description":"<This project is a test>"}'  >> create repo
 
 	2- git init >> initalize the repo
@@ -178,3 +178,9 @@ Convert ODEX to DEX
 
 Remove the path from the terminal 
 	export PS1='> ' 
+
+Import Java workspace into eclipse:
+	1- File > Import
+	2- Select from existing workspace
+	3- Select the location
+	4- Check the box copy projects into workspace 
