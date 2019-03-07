@@ -232,6 +232,7 @@ Import Java workspace into eclipse:
 	4- Check the box copy projects into workspace 
 
 Remove directories from remote git:
+
 	git rm -r --cached <directoryName>
 	git commit -m "note"
 	git push origin master
