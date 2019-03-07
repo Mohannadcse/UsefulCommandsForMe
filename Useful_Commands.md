@@ -20,7 +20,9 @@ Steps 1-2, required only once when the local repo is created. Steps 3-7, require
 	
 
 Remove entry from $PATH
-	```sh export PATH=${PATH/':/entry/path'/} ```
+```sh 
+export PATH=${PATH/':/entry/path'/} 
+```
 
 Add entry to $PATH
 ```sh
@@ -28,7 +30,7 @@ Add entry to $PATH
 	1- export $MAVEN_HOME=/opt/mave/
 	
 	2- export PATH=$MAVEN_HOME/bin:${PATH}
-	```
+```
 
 Store a path permenantly:
 
@@ -228,5 +230,8 @@ Import Java workspace into eclipse:
 	2- Select from existing workspace
 	3- Select the location
 	4- Check the box copy projects into workspace 
-```
 
+Remove directories from remote git:
+	git rm -r --cached <directoryName>
+	git commit -m "note"
+	git push origin master
