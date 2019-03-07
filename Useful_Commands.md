@@ -1,19 +1,19 @@
 GitHub (http://rogerdudler.github.io/git-guide/)
 
 ```sh
-	1- curl -u '<userName>' https://api.github.com/user/repos -d '{"name":"<projectname>","description":"<This project is a test>"}'  >> create repo
+1- curl -u '<userName>' https://api.github.com/user/repos -d '{"name":"<projectname>","description":"<This project is a test>"}'  >> create repo
 
-	2- git init >> initalize the repo
+2- git init >> initalize the repo
 
-	3- git add <filName or . to add all files>  >> stage files in the local repository 
+3- git add <filName or . to add all files>  >> stage files in the local repository 
 
-	4- git commit -m "<YourComment>"  >> add your commit
+4- git commit -m "<YourComment>"  >> add your commit
 
-	5- git remote add origin https://github.com/<userName>/<porjectName>.git >> identify the name of the github repo
+5- git remote add origin https://github.com/<userName>/<porjectName>.git >> identify the name of the github repo
 
-	6- git remote -v >> verify the URL of the repo
+6- git remote -v >> verify the URL of the repo
 
-	7- git push origin master >> push the commited modifications to the remote repo
+7- git push origin master >> push the commited modifications to the remote repo
 ```
 
 Steps 1-2, required only once when the local repo is created. Steps 3-7, required to every time you want to push the modifications. 
