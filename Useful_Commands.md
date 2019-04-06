@@ -236,3 +236,9 @@ Remove directories from remote git:
 	git rm -r --cached <directoryName>
 	git commit -m "note"
 	git push origin master
+
+Modify the 1st occurrence in text file
+	
+	for f in $t; do awk '!x{x=sub("WORD","REPLACE")}7' $f > t1.txt; rm $f; cat t1.txt > $f; rm t1.txt; done
+
+
